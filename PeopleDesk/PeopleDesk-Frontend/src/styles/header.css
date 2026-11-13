@@ -1,0 +1,21 @@
+.topbar { min-height: 91px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 17px 38px; border-bottom: 1px solid #eceef4; background: rgba(255,255,255,.82); }
+.topbar-left, .topbar-actions { display: flex; align-items: center; }
+.topbar-left { gap: 12px; }
+.topbar-left h1 { margin: 0; color: #25283a; font-family: Manrope, sans-serif; font-size: 21px; font-weight: 800; letter-spacing: -.7px; }
+.topbar-left p { margin: 4px 0 0; color: #969cad; font-size: 11px; }
+.topbar-actions { gap: 18px; }
+.topbar-search { display: flex; align-items: center; gap: 9px; min-width: 202px; padding: 9px 11px; border: 1px solid #e9eaf1; border-radius: 9px; color: #9299a9; background: #fff; font-size: 11px; text-align: left; }
+.topbar-search:hover { border-color: #c9cafa; color: var(--primary); }
+.topbar-search kbd { margin-left: auto; padding: 1px 5px; border: 1px solid #e7e8ef; border-radius: 4px; color: #a3a8b5; background: #fafbfc; font: 10px 'DM Sans', sans-serif; }
+.topbar-divider { width: 1px; height: 28px; background: #eceef3; }
+.notification-button { position: relative; }
+.notification-button i { position: absolute; top: 7px; right: 7px; width: 6px; height: 6px; border: 1px solid white; border-radius: 50%; background: #ec7583; }
+.user-profile { display: flex; align-items: center; gap: 9px; }
+.user-profile-copy { display: flex; flex-direction: column; gap: 3px; }
+.user-profile-copy strong { color: #44495b; font-size: 11px; }
+.user-profile-copy span { color: #a0a6b4; font-size: 9px; }
+.avatar { display: grid; place-items: center; flex: 0 0 auto; border-radius: 50%; font-weight: 700; }
+.avatar-admin { width: 34px; height: 34px; color: #5556be; background: #eeeeff; font-size: 12px; }
+.mobile-menu-button { display: none; }
+@media (max-width: 900px) { .topbar { padding: 16px 22px; } .mobile-menu-button { display: inline-grid; } }
+@media (max-width: 600px) { .topbar { min-height: 76px; padding: 13px 15px; } .topbar-actions { gap: 8px; } .topbar-search { min-width: auto; padding: 9px; } .topbar-search span, .topbar-search kbd, .topbar-divider, .notification-button, .user-profile-copy { display: none; } .topbar-left h1 { font-size: 18px; } .topbar-left p { font-size: 10px; } }

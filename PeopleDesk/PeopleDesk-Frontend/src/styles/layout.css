@@ -1,0 +1,8 @@
+.app-shell { min-height: 100vh; }
+.main-area { min-height: 100vh; margin-left: 252px; display: flex; flex-direction: column; }
+.page-content { width: min(100%, 1440px); margin: 0 auto; padding: 30px 38px 26px; flex: 1; }
+.app-footer { display: flex; justify-content: space-between; gap: 16px; padding: 18px 38px 22px; color: #a0a6b5; font-size: 11px; }
+.connection-banner { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin: 18px 38px 0; padding: 12px 15px; border: 1px solid #f5d4d8; border-radius: 10px; background: #fff5f6; color: #a83c49; font-size: 12px; }
+.connection-banner button { display: inline-flex; align-items: center; gap: 6px; padding: 6px 9px; border: 0; border-radius: 7px; background: #ffe6e9; color: #a83c49; font-weight: 700; }
+@media (max-width: 900px) { .main-area { margin-left: 0; } .page-content { padding: 25px 22px; } .app-footer { padding: 16px 22px 20px; } .connection-banner { margin-left: 22px; margin-right: 22px; } }
+@media (max-width: 540px) { .page-content { padding: 20px 15px; } .app-footer { padding: 14px 15px 18px; flex-direction: column; gap: 5px; } .connection-banner { margin: 14px 15px 0; align-items: flex-start; } }

@@ -1,0 +1,10 @@
+.stat-card { min-width: 0; padding: 18px 19px 16px; border: 1px solid #eceef4; border-radius: 13px; background: #fff; box-shadow: 0 5px 18px rgba(32,37,63,.025); }
+.stat-icon { display: grid; place-items: center; width: 37px; height: 37px; margin-bottom: 13px; border-radius: 10px; }
+.stat-icon-users { color: #5b5ccf; background: #eeeeff; }
+.stat-icon-active { color: #229a70; background: #e7f8f1; }
+.stat-icon-departments { color: #d18c35; background: #fff4e4; }
+.stat-icon-payroll { color: #397fc4; background: #eaf4ff; }
+.stat-card-label { color: #858da0; font-size: 10px; font-weight: 600; }
+.stat-card-value { overflow: hidden; margin-top: 6px; color: #25283a; font-family: Manrope, sans-serif; font-size: clamp(19px, 2vw, 25px); font-weight: 800; letter-spacing: -.8px; text-overflow: ellipsis; white-space: nowrap; }
+.stat-card-helper { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 8px; color: #a0a6b4; font-size: 9px; }
+.stat-card-helper svg { color: #b2b6c4; }
